@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.MyTime.security.jwt.JwtProviderTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.MyTime.security.jwt.JwtProviderTest
+validateToken_UnsupportedJwtException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at com.MyTime.security.jwt.JwtProviderTest.validateToken_UnsupportedJwtException(JwtProviderTest.java:106)
+

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.MyTime.repository.UserTimeDetailRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 4.424 s <<< FAILURE! - in com.MyTime.repository.UserTimeDetailRepositoryTest
+deleteByUserTimeUserTimeId  Time elapsed: 2.075 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.MyTime.repository.UserTimeDetailRepositoryTest.deleteByUserTimeUserTimeId(UserTimeDetailRepositoryTest.java:114)
+
+findByUserTimeStatusAndProjectIdIn  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <3>
+	at com.MyTime.repository.UserTimeDetailRepositoryTest.findByUserTimeStatusAndProjectIdIn(UserTimeDetailRepositoryTest.java:82)
+
+findByUserTimeStatusAndUserTimeUserUserId  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <3>
+	at com.MyTime.repository.UserTimeDetailRepositoryTest.findByUserTimeStatusAndUserTimeUserUserId(UserTimeDetailRepositoryTest.java:103)
+

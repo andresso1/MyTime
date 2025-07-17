@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.MyTime.repository.ProjectRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.361 s <<< FAILURE! - in com.MyTime.repository.ProjectRepositoryTest
+deleteProject  Time elapsed: 0.023 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: Provided id of the wrong type for class com.MyTime.entity.Project. Expected: class java.lang.Integer, got class java.lang.Long; nested exception is java.lang.IllegalArgumentException: Provided id of the wrong type for class com.MyTime.entity.Project. Expected: class java.lang.Integer, got class java.lang.Long
+	at com.MyTime.repository.ProjectRepositoryTest.deleteProject(ProjectRepositoryTest.java:100)
+Caused by: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.MyTime.entity.Project. Expected: class java.lang.Integer, got class java.lang.Long
+	at com.MyTime.repository.ProjectRepositoryTest.deleteProject(ProjectRepositoryTest.java:100)
+Caused by: org.hibernate.TypeMismatchException: Provided id of the wrong type for class com.MyTime.entity.Project. Expected: class java.lang.Integer, got class java.lang.Long
+	at com.MyTime.repository.ProjectRepositoryTest.deleteProject(ProjectRepositoryTest.java:100)
+
+saveProject  Time elapsed: 0.014 s  <<< ERROR!
+org.springframework.dao.InvalidDataAccessApiUsageException: Provided id of the wrong type for class com.MyTime.entity.Project. Expected: class java.lang.Integer, got class java.lang.Long; nested exception is java.lang.IllegalArgumentException: Provided id of the wrong type for class com.MyTime.entity.Project. Expected: class java.lang.Integer, got class java.lang.Long
+	at com.MyTime.repository.ProjectRepositoryTest.saveProject(ProjectRepositoryTest.java:93)
+Caused by: java.lang.IllegalArgumentException: Provided id of the wrong type for class com.MyTime.entity.Project. Expected: class java.lang.Integer, got class java.lang.Long
+	at com.MyTime.repository.ProjectRepositoryTest.saveProject(ProjectRepositoryTest.java:93)
+Caused by: org.hibernate.TypeMismatchException: Provided id of the wrong type for class com.MyTime.entity.Project. Expected: class java.lang.Integer, got class java.lang.Long
+	at com.MyTime.repository.ProjectRepositoryTest.saveProject(ProjectRepositoryTest.java:93)
+

@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.MyTime.repository.VoucherRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 2.753 s <<< FAILURE! - in com.MyTime.repository.VoucherRepositoryTest
+getByCompanyIdAndStatusIn  Time elapsed: 0.004 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+
+findByVoucherId_Found  Time elapsed: 0.004 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+
+findById  Time elapsed: 0.005 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+
+findByVoucherId_NotFound  Time elapsed: 0.005 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+
+findAllVouchers  Time elapsed: 0.004 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+
+deleteVoucher  Time elapsed: 2.72 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+
+saveVoucher  Time elapsed: 0.006 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: com.MyTime.entity.Voucher
+	at com.MyTime.repository.VoucherRepositoryTest.setUp(VoucherRepositoryTest.java:39)
+

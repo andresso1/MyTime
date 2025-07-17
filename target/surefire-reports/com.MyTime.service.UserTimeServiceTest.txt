@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.MyTime.service.UserTimeServiceTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.MyTime.service.UserTimeServiceTest
+existsById_True  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.MyTime.service.UserTimeServiceTest.existsById_True(UserTimeServiceTest.java:131)
+

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.MyTime.service.UserDetailsServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.MyTime.service.UserDetailsServiceImplTest
+loadUserByUsername_UserFound  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.MyTime.entity.Company.getCompanyId()" because the return value of "com.MyTime.entity.User.getCompany()" is null
+	at com.MyTime.service.UserDetailsServiceImplTest.loadUserByUsername_UserFound(UserDetailsServiceImplTest.java:40)
+
+loadUserByUsername_UserNotFound  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <org.springframework.security.core.userdetails.UsernameNotFoundException> but was: <java.util.NoSuchElementException>
+	at com.MyTime.service.UserDetailsServiceImplTest.loadUserByUsername_UserNotFound(UserDetailsServiceImplTest.java:51)
+Caused by: java.util.NoSuchElementException: No value present
+	at com.MyTime.service.UserDetailsServiceImplTest.lambda$loadUserByUsername_UserNotFound$0(UserDetailsServiceImplTest.java:51)
+	at com.MyTime.service.UserDetailsServiceImplTest.loadUserByUsername_UserNotFound(UserDetailsServiceImplTest.java:51)
+
